@@ -20,6 +20,6 @@ modalBtns.forEach(function(btn){
 var Closebtns=document.querySelectorAll('.modal-close');
 Closebtns.forEach(function(btns){
   btns.addEventListener('click', function(){
-    var modal=btns.closest('.full-image').style.transform="translateY(-110%)";
+    btns.closest('.full-image').style.transform="translateY(-110%)";
   })
 })
